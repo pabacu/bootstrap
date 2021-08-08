@@ -1,0 +1,36 @@
+
+/* import only the necessary Bootstrap files */
+@import "../public_html/vendor/node_modules/bootstrap/scss/functions"; 
+@import "../public_html/vendor/node_modules/bootstrap/scss/variables";
+
+/*custom colours theme*/
+$body-bg: #eeeeee;
+
+.bd-footer a {
+  color: #fff;
+}
+
+/*--------------------*/
+/* Theme colors*/
+$primary:       #6c2b97;
+$secondary:     #512b97;
+$success:       #56972b;
+$info:          #2b5697;
+$warning:       #2b2b2b;
+$danger:        #972b3b;
+$light:         #8e509b;
+$dark:          #2b113c;
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark
+);
+
+/* finally, import Bootstrap to set the changes! */
+@import "../public_html/vendor/node_modules/bootstrap/scss/bootstrap";

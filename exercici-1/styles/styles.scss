@@ -1,0 +1,48 @@
+/*components*/
+@import "components/navbars";
+
+/*icons cdn*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+/*Landing page*/
+body {
+   font-family: "Nunito", sans-serif;
+}
+.jumbotron-odi-hero {
+   padding: 0rem 0rem;
+   position: relative;
+   max-width: 100%;
+}
+.jumbotron-odi-dark {
+   max-width: 100%;
+   padding: 0px;
+}
+
+.jumbotron-overlay {
+   height: 100%;
+   padding: 100px 0;
+   color: #fff;
+}
+.jumbotron-padding {
+   padding-top: 1rem;
+}
+
+.btn-circle {
+   border-radius: 30px;
+}
+
+.latest-news {
+   border-bottom: 0.25rem solid transparent;
+   border-bottom-color: #007bff;
+}
+
+/*footer*/
+.bd-footer a {
+   color: #495057;
+   text-decoration: none;
+}
+.bd-footer a:hover,
+.bd-footer a:focus {
+   color: #0d6efd;
+   text-decoration: underline;
+}
